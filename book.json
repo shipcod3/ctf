@@ -2,5 +2,6 @@
 	"plugins": ["ga", "-mixpanel", "-mathjax"],
 	"pluginsConfig": {
 		"ga": { "token": "UA-37017099-3" },
+		"fontSettings": { "theme": "night" }
 	}
 }
