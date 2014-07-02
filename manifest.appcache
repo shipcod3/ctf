@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Revision 1400703348967
+# Revision 1404261888882
 
 CACHE:
 web/exploits.html
@@ -7,8 +7,8 @@ web/vulnerabilities.html
 index.html
 appendix.html
 contrib.html
-exploits/README.html
 exploits/binary1.html
+exploits/README.html
 exploits/binary2.html
 forensics/README.html
 toolkits/README.html
@@ -20,12 +20,6 @@ vulnerabilities/binary.html
 vulnerabilities/source.html
 ctf.html
 gitbook/app.js
-gitbook/fonts/anonymouspro/400.woff
-gitbook/fonts/anonymouspro/400i.woff
-gitbook/fonts/anonymouspro/700.woff
-gitbook/fonts/anonymouspro/700i.woff
-gitbook/fonts/ebgaramond/400.woff
-gitbook/fonts/ebgaramond/400i.woff
 gitbook/fonts/fontawesome/FontAwesome.otf
 gitbook/fonts/fontawesome/fontawesome-webfont.eot
 gitbook/fonts/fontawesome/fontawesome-webfont.svg
@@ -55,7 +49,7 @@ gitbook/jsrepl/sandbox.html
 gitbook/jsrepl/sandbox.js
 gitbook/print.css
 gitbook/style.css
-gitbook/plugins/gitbook-plugin-ga/plugin.js
+gitbook/plugins/gitbook-plugin-mathjax/plugin.js
 
 NETWORK:
 *
