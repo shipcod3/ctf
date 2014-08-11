@@ -4,7 +4,7 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Auditing Webapps | CTF Field Guide</title>
+        <title>Find a Job | CTF Field Guide</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 0.7.1">
@@ -19,10 +19,10 @@
     <meta name="author" content="trailofbits">
     
     
-    <link rel="next" href="../exploits/README.html" />
+    <link rel="next" href="../vulnerabilities/README.html" />
     
     
-    <link rel="prev" href="../vulnerabilities/binary.html" />
+    <link rel="prev" href="../intro/find.html" />
     
 
         
@@ -34,7 +34,7 @@
 
 
         
-    <div class="book" data-github="trailofbits/ctf" data-level="2.3" data-basepath=".." data-revision="1407798340608">
+    <div class="book" data-github="trailofbits/ctf" data-level="1.2" data-basepath=".." data-revision="1407798340608">
     <div class="book-header">
     <!-- Actions Left -->
     <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
@@ -114,7 +114,7 @@
         
         
         <li>
-            <a href="https://github.com/trailofbits/ctf/edit/master/web/vulnerabilities.md" target="blank" class="contribute-link">Edit and Contribute</a>
+            <a href="https://github.com/trailofbits/ctf/edit/master/intro/careers.md" target="blank" class="contribute-link">Edit and Contribute</a>
         </li>
         
 
@@ -174,7 +174,7 @@
         </li>
     
         
-        <li class="chapter " data-level="1.2" data-path="intro/careers.html">
+        <li class="chapter active" data-level="1.2" data-path="intro/careers.html">
             
                 
                     <a href="../intro/careers.html">
@@ -244,7 +244,7 @@
         </li>
     
         
-        <li class="chapter active" data-level="2.3" data-path="web/vulnerabilities.html">
+        <li class="chapter " data-level="2.3" data-path="web/vulnerabilities.html">
             
                 
                     <a href="../web/vulnerabilities.html">
@@ -458,7 +458,7 @@
             <div class="page-wrapper" tabindex="-1">
                 <div class="book-progress">
     <div class="bar">
-        <div class="inner" style="width: 41.1764705882353%;min-width: 35.294117647058826%;"></div>
+        <div class="inner" style="width: 17.647058823529413%;min-width: 11.764705882352942%;"></div>
     </div>
     <div class="chapters">
     
@@ -470,13 +470,13 @@
     
         <a href="../intro/careers.html" title="Find a Job" class="chapter done " data-progress="1.2" style="left: 17.647058823529413%;"></a>
     
-        <a href="../vulnerabilities/README.html" title="Vulnerability Discovery" class="chapter done new-chapter" data-progress="2" style="left: 23.529411764705884%;"></a>
+        <a href="../vulnerabilities/README.html" title="Vulnerability Discovery" class="chapter  new-chapter" data-progress="2" style="left: 23.529411764705884%;"></a>
     
-        <a href="../vulnerabilities/source.html" title="Auditing Source" class="chapter done " data-progress="2.1" style="left: 29.41176470588235%;"></a>
+        <a href="../vulnerabilities/source.html" title="Auditing Source" class="chapter  " data-progress="2.1" style="left: 29.41176470588235%;"></a>
     
-        <a href="../vulnerabilities/binary.html" title="Auditing Binaries" class="chapter done " data-progress="2.2" style="left: 35.294117647058826%;"></a>
+        <a href="../vulnerabilities/binary.html" title="Auditing Binaries" class="chapter  " data-progress="2.2" style="left: 35.294117647058826%;"></a>
     
-        <a href="../web/vulnerabilities.html" title="Auditing Webapps" class="chapter done " data-progress="2.3" style="left: 41.1764705882353%;"></a>
+        <a href="../web/vulnerabilities.html" title="Auditing Webapps" class="chapter  " data-progress="2.3" style="left: 41.1764705882353%;"></a>
     
         <a href="../exploits/README.html" title="Exploit Creation" class="chapter  new-chapter" data-progress="3" style="left: 47.05882352941177%;"></a>
     
@@ -503,33 +503,126 @@
 
                 <div class="page-inner">
                 
-                    <section class="normal" id="section-gitbook_18">
+                    <section class="normal" id="section-gitbook_9">
                     
-                        <h1 id="auditing-web-applications">Auditing Web Applications</h1>
-<p>Welcome to the web hacking module. This module is about getting familiar with vulnerabilities commonly found in web applications. At the end of this module you will be able to identify common vulnerabilities in web based applications using a variety of testing methodologies and source level auditing. The lecture material will give you all the tools you need to successfully audit the workshop material.</p>
-<h2 id="lecture">Lecture</h2>
+                        <h1 id="career-cheatsheet">Career Cheatsheet</h1>
+<p>[Editor&#39;s note: this is an older article written for pentest.cryptocity.net and that we are in the process of updating.]</p>
+<p>These are my views on information security careers based on the experience I&#39;ve had and your mileage may vary. The information below will be most appropriate if you live in New York City, you&#39;re interested in application security, pentesting, or reversing, and you are early on in your career in information security.</p>
+<ol>
+<li>Employers</li>
+<li>Roles</li>
+<li>Learn from a Book</li>
+<li>Learn from a Course</li>
+<li>University</li>
+<li>University</li>
+<li>Communication</li>
+<li>Meet People</li>
+<li>Conferences</li>
+<li>Certifications</li>
+<li>Links</li>
+<li>Friends of the Guide</li>
+</ol>
+<h2 id="employers">Employers</h2>
+<p>As far as I can tell, there are five major employers in the infosec industry (not counting academia).</p>
 <ul>
-<li><a href="http://vimeo.com/32509769" target="_blank">Web Hacking Part I</a></li>
-<li><a href="http://vimeo.com/32550671" target="_blank">Web Hacking Part II</a></li>
+<li>The Government</li>
+<li>Non-Tech Fortune 500s (mostly finance)</li>
+<li>Big Tech Vendors (mostly West coast)</li>
+<li>Big Consulting (mostly non-technical)</li>
+<li>Small Consulting (mostly awesome)</li>
 </ul>
-<h2 id="workshop">Workshop</h2>
-<p>In order to practice your skills, we recommend going through the process of finding and exploiting vulnerabilities in the <a href="http://www.dvwa.co.uk/" target="_blank">Damn Vulnerable Web App (DVWA)</a> and the Siberia Exploit Kit. DVWA is a collection of vulnerable test cases implemented in PHP and serves as an easy introduction to the many things that can go wrong in web applications. The Siberia Exploit Kit is a &quot;crimeware pack&quot; used by criminals to perform massive compromises. It includes a package of browser exploits and a command and control panel intended to manage compromised hosts. Siberia contains several pre- and post-authentication vulnerabilities that allow an attacker to gain administrative access to the panel, then take over the server on which it is hosted.</p>
-<p>Download and run the <a href="https://code.google.com/p/owaspbwa/" target="_blank">OWASP Broken Web Apps</a> virtual machine in VMware to start this workshop. BWA includes many web applications many for security testing, including DVWA. Once you have mastered DVWA, feel free to move on to other vulnerable web applications! Try auditing Siberia&#39;s source code to find the vulnerabilities, paying attention to sources of input in PHP.</p>
+<p>The industry you work in will determine the major problems you have to solve. For example, the emphasis in finance is to reduce risk at the lowest cost to the business (opportunities for large-scale automation). On the other hand, consulting often means selling people on the idea that X is actually a vulnerability and researching to find new ones.</p>
+<h2 id="roles">Roles</h2>
+<p>I primarily split up infosec jobs into internal network security, product security, and consulting. I further break down these classes of jobs into the following roles:</p>
 <ul>
-<li><a href="https://code.google.com/p/owaspbwa/" target="_blank">OWASP Broken Web Apps</a></li>
-<li><a href="/ctf/web/workshop/siberia.zip">Siberia Crimeware Pack</a> (pw: infected)</li>
+<li>Application Security (code audits/app assessments)</li>
+<li>Attacker (offensive)</li>
+<li>Compliance</li>
+<li>Forensics</li>
+<li>Incident Handler</li>
+<li>Manager</li>
+<li>Network Security Engineer</li>
+<li>Penetration Tester</li>
+<li>Policy</li>
+<li>Researcher</li>
+<li>Reverse Engineer</li>
+<li>Security Architect</li>
 </ul>
-<h2 id="tools">Tools</h2>
-<p>Burp Suite is a local HTTP proxy intended for security testing. Burp Suite is made for web penetration testers and simplifies many common tasks in a point-and-click GUI. The features available in the free version are more than enough to complete this and many other web security challenges.</p>
+<p>The roles above each require a different, highly specialized body of knowledge. This website is a great resource for application security and penetration testing, but you should find other resources if you are interested in a different role.</p>
+<h2 id="learn-from-a-book">Learn from a Book</h2>
+<p>Fortunately, there are dozens of good books written about each topic inside information security. <a href="http://www.amazon.com/A-Bug-Hunters-Reading-List/lm/R21POHD6Y2DOLQ" target="_blank">Dino Dai Zovi</a> and <a href="http://www.amazon.com/lm/R2EN4JTQOCHNBA/ref=cm_lm_pthnk_view" target="_blank">Tom Ptacek</a> both have excellent reading lists. We recommend looking at:</p>
 <ul>
-<li><a href="http://portswigger.net/burp/download.html" target="_blank">Burp Suite</a></li>
+<li><a href="http://www.amazon.com/Hacking-Ethical-Hackers-Handbook-Edition/dp/0071832386/" target="_blank">Gray Hat Hacking</a></li>
+<li><a href="http://www.amazon.com/Myths-Security-Computer-Industry-Doesnt/dp/0596523025?" target="_blank">The Myths of Security</a></li>
+<li><a href="http://www.amazon.com/Hacking-Next-Generation-Animal-Guide/dp/0596154577" target="_blank">Hacking: The Next Generation</a></li>
+<li>and any book from O&#39;Reilly on a scripting language of your choice</li>
 </ul>
-<h2 id="resources">Resources</h2>
-<p>Many simple testing methods and common web application flaws are available in the walkthrough. Ensure that you understand the fundementals of HTTP, HTML, and PHP to do well on this section.</p>
+<p>If you&#39;re not sure what you&#39;re looking for, then you should browse the selection offered by <a href="http://shop.oreilly.com/category/browse-subjects/security.do" target="_blank">O&#39;Reilly</a>. They are probably the most consistent and high-quality book publisher in this industry.</p>
+<p>Don&#39;t forget that reading the book alone won&#39;t give you any additional skills beyond the conversational. You need to practice or create something based on what you read to really gain value and understanding from it.</p>
+<h2 id="learn-from-a-course">Learn from a Course</h2>
+<p>If you&#39;re looking for something more hands-on and directed, there are lots of university courses about information security available online. I listed some of the best ones that have course materials available below (ordered by institution name). The RPI course is the most similar to this one and Hovav gets points for the best academic reading list, but every course on this list is fantastic.</p>
+<p>[Ed. note: Table to be added/updated later.]</p>
+<h2 id="university">University</h2>
+<p>The easiest shortcut to finding a university with a dedicated security program is to look through the <a href="http://www.nsa.gov/ia/academic_outreach/nat_cae/institutions.shtml" target="_blank">NSA Centers of Academic Excellence</a> (NSA-COE) institution list. This certification has become watered down as more universities have obtained it and it might help to focus your search on those that have obtained the newer <a href="http://www.nsa.gov/academia/nat_cae_cyber_ops/nat_cae_co_requirements.shtml" target="_blank">COE-CO</a> certification. Remember, certifications are only a guideline. You should look into the actual programs at each university instead of basing your decision on a certification alone.</p>
+<p>Once in university, take classes that force you to write code in large volumes to solve hard problems. IMHO the courses that focus on mainly theoretical or simulated problems provide limited value. Ask upper level students for recommendations if you can&#39;t identify the CS courses with programming from the CS courses done entirely on paper. The other way to frame this is to go to school for software development rather than computer science.</p>
+<h2 id="capture-the-flag">Capture the Flag</h2>
+<p>If you want to acquire and maintain technical skills and you want to do it fast, then you should play in a CTF or jump into a wargame. The one thing to note is that many of these challenges attach themselves to conferences (of all sizes), and by playing in them you will likely miss the entire rest of the conference. Try not to over do it, since conferences are useful in their own way (see the rest of the career guide).</p>
+<p>There are some defense-only competitions that disguise themselves as normal CTF competitions, mainly the Collegiate Cyber Defense Challenge (CCDC) and its regional variations, and my opinion is that you should avoid them. They are exercises in system administration and frustration and will teach you little about security or anything else. They are incredibly fun to play as a Red Team though.</p>
+<h2 id="communication">Communication</h2>
+<p>In any role, the majority of your time will be spent communicating with others, primarily through email and meetings and less by phone and IM. The role/employer you have will determine whether you speak more with internal infosec teams, non-security technologists, or business users. For example, expect to communicate more with external technologists if you do network security for a financial firm.</p>
+<p>Tips for communicating well in a large organization:</p>
 <ul>
-<li><a href="http://resources.infosecinstitute.com/owasp-top-10-tools-and-tactics/" target="_blank">OWASP Top 10 Tools and Tactics</a></li>
-<li><a href="http://www.nostarch.com/download/tangledweb_ch3.pdf" target="_blank">The Tangled Web: Chapter 3</a></li>
-<li><a href="http://www2.astro.psu.edu/users/sdb210/documents/phpprimer_v0.1.pdf" target="_blank">PHP Primer</a></li>
+<li>Learn to write clear, concise, and professional email.</li>
+<li>Learn to <a href="http://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0142000280" target="_blank">get things done</a> and stay organized. Do not drop the ball.</li>
+<li>Learn the business that your company or client is in. If you can speak in terms of the business, your arguments a) to not do things b) to fix things and c) to do things that involve time and money will be much more persuasive.</li>
+<li>Learn how your company or client works, ie. key individuals, processes, or other motivators that factor into what gets things done.</li>
+</ul>
+<p>If you are still attending a university, as with CS courses, take humanities courses that force you to write.</p>
+<h3 id="meet-people">Meet People</h3>
+<p>Find and go to your local <a href="http://www.reddit.com/r/netsec/wiki/meetups/citysec" target="_blank">CitySec</a>, an informal meetup without presentations that occurs once monthly in most cities. At Trail of Bits, we attend our local <a href="https://twitter.com/nysecsec" target="_blank">NYSEC</a>.</p>
+<p>ISSA and ISC2 focus on policy, compliance and other issues that will be of uncertain use for a new student in this field. Similarly, InfraGard mainly focuses on non-technical law enforcement-related issues. OWASP is one of the industry&#39;s worst examples of vendor capture and is less about technology and more about sales.</p>
+<h3 id="conferences">Conferences</h3>
+<p>If you&#39;ve never been to an infosec conference before, use the google calendar below to find a low-cost local one and go. There have been students of mine who think that attending a conference will be some kind of test and put off going to one for as long as possible. I promise I won&#39;t pop out of the bushes with a final exam and publish your scores afterward.</p>
+<ul>
+<li><a href="https://www.google.com/calendar/embed?src=pe2ikdbe6b841od6e26ato0asc@group.calendar.google.com" target="_blank">Information Security Conferences Calendar</a></li>
+</ul>
+<p>If you go to a conference, don&#39;t obsess over attending a talk during every time slot. The talks are just bait to lure all the smart hackers to one location for a weekend: you should meet the other attendees! If a particular talk was interesting and useful then you can and should talk to the speaker. <a href="https://www.defcon.org/html/links/dc-speakerscorner.html#idols-moyer" target="_blank">This post</a> by Shawn Moyer at the Defcon Speaker&#39;s Corner has more on this subject.</p>
+<p>If you&#39;re working somewhere and are having trouble justifying conference attendance to your company, the <a href="http://www.infosecleaders.com/2010/03/career-advice-tuesday-making-the-case-for-conference-attendance/" target="_blank">Infosec Leaders blog</a> has some helpful advice.</p>
+<h2 id="certifications">Certifications</h2>
+<p>This industry requires specialized knowledge and skills and studying for a certification exam will not help you gain them. In fact, in many cases, it can be harmful because the time you spend studying for a test will distract you from doing anything else in this guide.</p>
+<p>That said, there are inexpensive and vendor-neutral certifications that you can reasonably obtain with your current level of experience to help set apart your resume, like the <a href="http://certifications.comptia.org/getCertified/certifications/network.aspx" target="_blank">Network+</a> and <a href="http://certification.comptia.org/getCertified/certifications/security.aspx" target="_blank">Security+</a> or even a <a href="http://www.immunitysec.com/services-cnop.shtml" target="_blank">NOP</a>, but I would worry about certifications the least in your job search or professional development.</p>
+<p>In general, the two best reasons to get certifications are:</p>
+<ul>
+<li>If you are being paid to get certified, through paid training and exams or sometimes through an automatic pay raise after you get the certification (common in the government).</li>
+<li>If your company or your client is forcing you to get certified. This is usually to help with a sales pitch, ie. &quot;You should hire us because all of our staff are XYZ certified!&quot;</li>
+</ul>
+<p>In general, it is far more productive to spend time playing in a CTF, then using your final standing as proof that you&#39;re capable.</p>
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="http://www.reddit.com/r/netsec/comments/cc4ye/information_security_careers_cheatsheet" target="_blank">Reddit</a> and <a href="https://news.ycombinator.com/item?id=1409735" target="_blank">Hacker News</a> threads about this post</li>
+<li><p>Security Advice</p>
+<ul>
+<li><a href="http://krebsonsecurity.com/2012/06/how-to-break-into-security-ptacek-edition/" target="_blank">How to Break Into Security, Ptacek Edition</a></li>
+<li><a href="http://vrt-blog.snort.org/2013/01/how-to-become-infosec-expert-part-i.html" target="_blank">VRT: How to Become an Infosec Expert, Part I</a></li>
+<li><a href="http://www.cgisecurity.com/2012/09/five-pieces-of-advice-for-those-new-to-the-infosec-industry.html" target="_blank">Five pieces of advice for those new to the infosec industry</a></li>
+<li><a href="http://blog.strategiccyber.com/2012/12/26/computer-science-undergrad-to-offensive-security/" target="_blank">How to Milk a Computer Science Education for Offensive Security Skills</a></li>
+<li><a href="https://www.defcon.org/html/links/dc-speakerscorner.html#idols-moyer" target="_blank">Kill Your Idols</a>, Shawn Moyer&#39;s reflections on his first years at Defcon</li>
+</ul>
+</li>
+<li><p>Thoughts on Certifications</p>
+<ul>
+<li><a href="http://www.infosecisland.com/blogview/15450-My-Canons-on-ISC-Ethics-Such-as-They-Are.html" target="_blank">My Canons of (ISC)2 Ethics</a></li>
+<li><a href="http://www.veracode.com/blog/2008/04/not-a-cissp/" target="_blank">Not a CISSP</a></li>
+<li><a href="http://www.veracode.com/blog/2008/09/isc2s-newest-cash-cow-csslp/" target="_blank">(ISC)2&#39;s Newest Cash Cow</a></li>
+<li><a href="http://attrition.org/security/conferences/why_you_should_not_get_a_CISSP-public.pdf" target="_blank">Why You Should Not Get a CISSP</a></li>
+</ul>
+</li>
+<li>General Tech Advice<ul>
+<li><a href="http://www.joelonsoftware.com/articles/CollegeAdvice.html" target="_blank">Advice for Computer Science College Students</a></li>
+<li><a href="http://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/" target="_blank">Don&#39;t call yourself a programmer, and other career advice</a></li>
+<li><a href="http://pindancing.blogspot.com/2010/12/answer-to-will-you-mentor-me-is.html" target="_blank">The answer to &quot;Will you mentor me?&quot; is .... no.</a></li>
+</ul>
+</li>
 </ul>
 
                     
@@ -540,10 +633,10 @@
         </div>
 
         
-        <a href="../vulnerabilities/binary.html" class="navigation navigation-prev " aria-label="Previous page: Auditing Binaries"><i class="fa fa-angle-left"></i></a>
+        <a href="../intro/find.html" class="navigation navigation-prev " aria-label="Previous page: Find a CTF"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../exploits/README.html" class="navigation navigation-next " aria-label="Next page: Exploit Creation"><i class="fa fa-angle-right"></i></a>
+        <a href="../vulnerabilities/README.html" class="navigation navigation-next " aria-label="Next page: Vulnerability Discovery"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

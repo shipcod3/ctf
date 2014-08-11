@@ -1,24 +1,25 @@
 CACHE MANIFEST
-# Revision 1404262041671
+# Revision 1407798340608
 
 CACHE:
-web/vulnerabilities.html
-web/exploits.html
-index.html
-appendix.html
 contrib.html
 exploits/README.html
 exploits/binary1.html
 exploits/binary2.html
 forensics/README.html
-tradecraft/README.html
+index.html
+intro/README.html
+intro/find.html
+intro/careers.html
 toolkits/README.html
-tradecraft/case_studies.html
 toolkits/prep.html
+tradecraft/README.html
+tradecraft/case_studies.html
 vulnerabilities/README.html
 vulnerabilities/binary.html
 vulnerabilities/source.html
-ctf.html
+web/exploits.html
+web/vulnerabilities.html
 gitbook/app.js
 gitbook/fonts/fontawesome/FontAwesome.otf
 gitbook/fonts/fontawesome/fontawesome-webfont.eot
